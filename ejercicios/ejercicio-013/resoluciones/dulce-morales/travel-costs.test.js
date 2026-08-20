@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { calcularResultado, ordenarRanking } from '../codigo/travel-costs.js';
+import { calcularResultado, ordenarRanking } from './travel-costs.js';
 
 describe('ejercicio 013', () => {
   it('calcula suma numerica y no concatena texto', () => {
