@@ -9,7 +9,7 @@ describe('ejercicio 001', () => {
         { nombre: 'rpg-tank', puntos: 15 },
         { nombre: 'moto-racer', puntos: 5 }
       ])
-    ).toBe(30); // 👈 Usar .toBe(30)
+    ).toBe(30); 
   });
 
   it('ordena ranking de mayor a menor puntaje', () => {
@@ -19,7 +19,6 @@ describe('ejercicio 001', () => {
       { nombre: 'elite', puntos: 18 }
     ]);
 
-    // 👈 Mapea los nombres para obtener un arreglo de strings y usa .toEqual()
     expect(ranking.map((item) => item.nombre)).toEqual(['pro', 'elite', 'novato']);
   });
 });
